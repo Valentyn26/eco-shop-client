@@ -1,0 +1,23 @@
+.categorySelect {
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    border: 1px solid #c4c3c3;
+    border-radius: 5px;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 15px;
+}
+
+.textBox textarea {
+    padding: 5px 5px;
+    border: 1px solid #c4c3c3;
+    border-radius: 5px;
+}
+
+.textBox label {
+    padding-left: 8px;
+}

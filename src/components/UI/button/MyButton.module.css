@@ -1,0 +1,16 @@
+.btn {
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: #00B207;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:disabled {
+    background-color: #6f8770;
+}

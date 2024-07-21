@@ -1,0 +1,53 @@
+.switch {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch__label {
+    font-size: 18px;
+    position: relative;
+    padding-left: 70px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.15s ease 0s;
+}
+
+.switch__label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 35px;
+    background-color: #dbdbdb;
+    border-radius: 60px;
+    transition: inherit;
+}
+
+.switch__label::after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 29px;
+    height: 29px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: inherit;
+}
+
+.switch input:checked~.switch__label::before {
+    background-color: #293deb;
+}
+
+.switch input:checked~.switch__label::after {
+    left: 28px;
+}

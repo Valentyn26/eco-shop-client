@@ -1,0 +1,32 @@
+.counter {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    color: #1A1A1A;
+    font-weight: 500;
+}
+
+.counterButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    font-size: 22px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* @media (max-width: 768px) {
+    .counter {
+        column-gap: 8px;
+    }
+
+    .counterButton {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+} */

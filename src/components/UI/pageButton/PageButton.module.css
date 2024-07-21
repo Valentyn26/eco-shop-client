@@ -1,0 +1,17 @@
+.pageBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00B207;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+.pageBtn:hover {
+    background-color: #bdc1bd;
+}
+
+.pageBtn.active {
+    background-color: #00B207;
+}
